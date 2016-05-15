@@ -2,3 +2,4 @@ node_modules
 bower_assets
 example/www/assets
 *.lock
+npm-debug.log
