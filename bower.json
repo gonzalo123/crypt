@@ -1,5 +1,5 @@
 {
-  "name": "crypt",
+  "name": "g-crypt",
   "version": "1.0.0",
   "description": "JS crypt and decrypt with crypto-js",
   "authors": [

@@ -1,5 +1,5 @@
 {
-  "name": "crypt",
+  "name": "g-crypt",
   "version": "1.0.0",
   "description": "JS crypt and decrypt with crypto-js",
   "dependencies": {
@@ -22,5 +22,17 @@
   ],
   "main": "node/Crypt",
   "author": "Gonzalo Ayuso",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalo123/crypt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gonzalo123/crypt/issues"
+  },
+  "homepage": "https://github.com/gonzalo123/crypt#readme"
 }
