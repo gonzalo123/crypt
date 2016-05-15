@@ -4,15 +4,15 @@ describe("Crypt test", function () {
     var crypter = Crypt(passphrase);
 
     it('decrypted crypted data should be the same than original data', function () {
-        var originalData, encryptedData, dencryptedData;
+        var originalData, encryptedData, decryptedData;
 
         originalData = {"hello": "world"};
         console.log("Original data:", originalData);
         encryptedData = crypter.encrypt(originalData);
         console.log("Encrypted data:", encryptedData);
-        dencryptedData = crypter.decrypt(encryptedData);
-        console.log("Dencrypted data:", dencryptedData);
+        decryptedData = crypter.decrypt(encryptedData);
+        console.log("Dencrypted data:", decryptedData);
 
-        expect(dencryptedData).toEqual(originalData);
+        expect(decryptedData).toEqual(originalData);
     });
 });

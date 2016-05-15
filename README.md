@@ -48,7 +48,7 @@ the HTTP client
     <title>Title</title>
 </head>
 <body>
-Open console
+Open console to see the messages
 
 <script src="http://localhost:3000/socket.io/socket.io.js"></script>
 <script src="assets/cryptojslib/rollups/aes.js"></script>
@@ -74,4 +74,3 @@ Open console
 </body>
 </html>
 ```
-

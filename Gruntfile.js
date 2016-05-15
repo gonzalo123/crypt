@@ -12,7 +12,14 @@ module.exports = function (grunt) {
         'http://github.com/gonzalo123/crypt - MIT License */\n',
 
         jshint: {
-            files: ['Gruntfile.js', 'karma.conf.js', 'src/**.js', 'node/**.js', 'example/**.js', 'test/**.js'],
+            files: [
+                'Gruntfile.js',
+                'karma.conf.js',
+                'src/**.js',
+                'node/**.js',
+                'example/**.js',
+                'test/**.js'
+            ],
             options: {
                 globals: jshintrc
             }
