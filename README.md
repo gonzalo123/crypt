@@ -54,10 +54,10 @@ Open console
 <script src="assets/cryptojslib/rollups/aes.js"></script>
 <script src="assets/g-crypt/src/Crypt.js"></script>
 <script>
-    var socket = io('http://localhost:3000/');
-    var passphrase = 'fcf8afd67e96fa3366dd8eafec8bcace';
-    var crypter = Crypt(passphrase);
-    var id = 0;
+    var socket = io('http://localhost:3000/'),
+        passphrase = 'fcf8afd67e96fa3366dd8eafec8bcace',
+        crypter = Crypt(passphrase),
+        id = 0;
 
     socket.on('connect', function () {
         console.log("connected! Let's start the counter with: " + id);
