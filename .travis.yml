@@ -14,4 +14,4 @@ before_install:
   - bower install
 
 script:
-  - node_modules/karma/bin/karma start
+  - node_modules/karma/bin/karma start --single-run
