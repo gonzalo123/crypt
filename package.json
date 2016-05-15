@@ -1,6 +1,6 @@
 {
   "name": "g-crypt",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "JS crypt and decrypt with crypto-js",
   "dependencies": {
     "crypto-js": "^3.1.6"
