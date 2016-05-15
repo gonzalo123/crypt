@@ -28,7 +28,7 @@
     "crypt",
     "crypto-js"
   ],
-  "main": "node/Crypt",
+  "main": "dist/crypt",
   "author": "Gonzalo Ayuso",
   "license": "MIT",
   "directories": {
